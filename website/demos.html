@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Demos of Concepts</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-50 text-gray-900 font-sans">
+    <div id="header"></div>
+
+    <!-- Accordion Sections -->
+    <section class="max-w-6xl mx-auto px-6 py-8">
+        <h2 class="text-2xl font-semibold mb-6">Features with Representative Audio Clips</h2>
+        <p class="text-justify leading-relaxed">
+            This table summarizes the relationship between audio clips and their corresponding features. The <strong>Most representative audio clips</strong> (highest representative scores) column lists clips that best capture the characteristics of a
+            feature, while the <strong>Least representative audio clips</strong> (lowest representative scores) column shows clips that are least representative and lack common characteristics. Each row is associated with a <strong>Feature ID</strong>            and a <strong>Concept Name</strong>, indicating which feature or concept the clips correspond to.
+        </p>
+        <br>
+        <div id="accordion"></div>
+    </section>
+
+    <!-- Modal -->
+    <div id="myModal" class="hidden fixed inset-0 bg-black bg-opacity-50 justify-center items-center">
+        <div class="bg-white p-6 rounded-lg shadow-lg max-w-md text-center">
+            <p id="modalMessage" class="mb-4"></p>
+            <button onclick="closeModal()" class="bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded">
+        Close
+      </button>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/header.js"></script>
+    <script src="assets/demos.js"></script>
+</body>
+
+</html>

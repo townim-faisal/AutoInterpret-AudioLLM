@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Uncovering What AudioLLMs Hear</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-50 text-gray-900 font-sans">
+    <div id="header"></div>
+
+    <!-- Navbar will load here -->
+    <div id="navbar"></div>
+
+    <!-- Abstract -->
+    <section class="max-w-4xl mx-auto px-6 py-6 bg-white rounded-2xl shadow">
+        <h2 class="text-2xl font-semibold mb-3">Abstract</h2>
+        <p class="text-justify leading-relaxed">
+            Despite strong performance in audio tasks, large audio-language models (AudioLLMs) remain opaque, as individual neurons often respond to multiple unrelated concepts. We present the first mechanistic interpretability framework for AudioLLMs, leveraging
+            sparse autoencoders (SAEs) to disentangle polysemantic activations into monosemantic features. Our pipeline identifies representative audio clips, assigns meaningful names via automated captioning, and validates concepts through human evaluation
+            and steering. Experiments show that AudioLLMs encode structured, interpretable features, enhancing transparency and control. This work provides a foundation for trustworthy deployment in high-stakes domains and enables future extensions to
+            larger models, multilingual audio, and fine-grained paralinguistic features.
+        </p>
+    </section>
+
+    <!-- Methodology -->
+    <section class="max-w-5xl mx-auto px-6 py-8">
+        <h2 class="text-2xl font-semibold mb-4">Methodology</h2>
+        <div class="flex justify-center">
+            <img src="assets/main.jpg" alt="Methodology Figure" class="rounded-2xl shadow-lg w-full max-w-4xl">
+        </div>
+    </section>
+
+    <!-- Modal -->
+    <div id="myModal" class="hidden fixed inset-0 bg-black bg-opacity-50 justify-center items-center">
+        <div class="bg-white p-6 rounded-lg shadow-lg max-w-md text-center">
+            <p id="modalMessage" class="mb-4"></p>
+            <button onclick="closeModal()" class="bg-indigo-600 hover:bg-indigo-700 text-white px-4 py-2 rounded">
+        Close
+      </button>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/header.js"></script>
+</body>
+
+</html>
