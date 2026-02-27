@@ -22,10 +22,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
     <!-- Buttons -->
     <div class="flex justify-center space-x-4 mb-6">
-      <button onclick="openModal('paper')" 
-              class="bg-indigo-600 hover:bg-indigo-700 text-white font-semibold px-4 py-2 rounded-lg flex items-center space-x-2">
-        📄 <span>Paper</span>
-      </button>
+      <a href="https://arxiv.org/abs/2602.22253" 
+           target="_blank"
+           class="bg-indigo-600 hover:bg-indigo-700 text-white font-semibold px-4 py-2 rounded-lg flex items-center space-x-2">
+          📄 <span>Paper</span>
+      </a>
+      
 
       <a href="index.html" 
          class="${isActive("index.html")} font-semibold px-4 py-2 rounded-lg flex items-center space-x-2">
