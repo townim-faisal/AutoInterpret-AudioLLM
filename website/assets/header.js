@@ -12,6 +12,14 @@ document.addEventListener("DOMContentLoaded", () => {
       <h1 class="text-3xl font-bold">
         AR&D: A Framework for Retrieving and Describing Concepts for Interpreting AudioLLMs
       </h1>
+      <!-- Oral acceptance badge -->
+      <p class="mt-3">
+        <a href="https://cmsworkshops.com/ICASSP2026/view_paper.php?PaperNum=6256"
+          target="_blank"
+          class="inline-block bg-green-100 text-green-800 font-semibold px-4 py-2 rounded-lg hover:bg-green-200">
+          Accepted as Oral Presentation at ICASSP 2026
+        </a>
+      </p>
       <p class="mt-4 text-lg">
         Townim Faisal<sup>1,2</sup>, Ta Duc Huy<sup>1</sup>, Siqi Pan<sup>2</sup>, Jeremy Stoddard<sup>2</sup>, and Zhibin Liao<sup>1,3</sup>
       </p>
